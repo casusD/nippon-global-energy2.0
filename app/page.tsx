@@ -1,11 +1,15 @@
 import Header from '@/components/Header';
 import { Hero } from '@/components/Hero';
+import { Services } from '@/components/Services';
 
 export default function Home() {
 	return (
-		<div className='container p-5 mx-auto'>
-			<Header />
-			<Hero />
+		<div className='container mx-auto '>
+			<div className='bg-[length:350px_400px] bg-[url("/Decore.png")] bg-no-repeat bg-top-right 2xl:bg-[length:700px_550px] md:bg-[length:500px_500px]'>
+				<Header />
+				<Hero />
+			</div>
+			<Services />
 		</div>
 	);
 }
