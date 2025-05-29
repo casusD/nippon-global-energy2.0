@@ -32,7 +32,7 @@ export function Hero() {
 
 			<div className='w-1/2 h-60 flex items-center justify-center md:h-70 2xl:h-110'>
 				<Image
-					src='/globalEnergy.webp'
+					src='/hero.jpg'
 					alt='image'
 					width={250}
 					height={200}
