@@ -28,6 +28,7 @@
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
     "typescript": "^5"
+
   },
   "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
   "main": "tailwind.config.js",
@@ -41,4 +42,7 @@
     "url": "https://github.com/casusD/nippon-global-energy2.0/issues"
   },
   "homepage": "https://github.com/casusD/nippon-global-energy2.0#readme"
+
+
+
 }

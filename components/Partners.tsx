@@ -11,6 +11,7 @@ export function Partners() {
 	return (
 		<section className='mt-25 mb-15 px-5 mx-auto w-11/12'>
 			<div className=' justify-between xl:w-9/12 2xl:w-9/12 mx-auto'>
+
 				<h1 className='text-2xl w-140 font-bold'>
 					We work with leading global and Japanese manufacturers, and are open
 					to new partnerships in:

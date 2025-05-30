@@ -8,6 +8,7 @@ import { WhyChooseUs } from '@/components/WhyChooseUs';
 import {Footer} from "@/components/Footer";
 import FlipStyledCard from "@/components/FlipCard";
 
+
 export default function Home() {
 	return (
 		<div className='container mx-auto '>
@@ -21,7 +22,7 @@ export default function Home() {
 			<Partners />
 			<Contact />
 			<Footer />
-			<FlipStyledCard />
+			<FlipStyledCard image={'/hero.jpg'} text={'hello'} />
 
 		</div>
 	);
