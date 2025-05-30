@@ -24,7 +24,7 @@ export function Contact() {
 						alt='img'
 						width={20}
 						height={10}
-						className='absolute left-28 bottom-25 md:left-40 lg:left-44 lg:bottom-[71px] xl:left-56 focus:border focus:border-solid focus:border-black 2xl:left-68'
+						className='absolute left-25 bottom-25 md:left-37 lg:left-44 lg:bottom-[71px] xl:left-54 focus:border focus:border-solid focus:border-black 2xl:left-66'
 					/>
 					<button className='block mt-5 lg:mt-10 mx-auto bg-gradient-to-r xl:text-[18px] from-[#FF946D] to-[#FF7D68] text-white h-12 py-3 px-10 rounded-lg'>Subscribe</button>
 				</form>

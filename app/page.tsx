@@ -6,6 +6,7 @@ import { Partners } from '@/components/Partners';
 import { Services } from '@/components/Services';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import {Footer} from "@/components/Footer";
+import FlipStyledCard from "@/components/FlipCard";
 
 export default function Home() {
 	return (
@@ -20,6 +21,8 @@ export default function Home() {
 			<Partners />
 			<Contact />
 			<Footer />
+			<FlipStyledCard />
+
 		</div>
 	);
 }
