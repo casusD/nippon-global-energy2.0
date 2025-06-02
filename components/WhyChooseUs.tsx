@@ -1,9 +1,7 @@
-import serviceBG from '@/public/serviceBG.png'
-
 export function WhyChooseUs() {
 	return (
 		<section className='my-30 lg:px-5 mx-auto w-11/12 h-fit'>
-			<div className={`mx-auto md:w-10/12 pb-7 sm:bg-[url(${serviceBG})] bg-repeat-y bg-[position:95%_40%] lg:bg-none lg:flex lg:w-full gap-5 lg:justify-between xl:w-9/12`}>
+			<div className={`mx-auto md:w-10/12 pb-7 sm:bg-[url('/serviceBG.png')] bg-repeat-y bg-[position:95%_40%] lg:bg-none lg:flex lg:w-full gap-5 lg:justify-between xl:w-9/12`}>
 				<div>
 					<h1 className='text-[25px] text-center font-bold mb-5 lg:text-start'>
 						Why Choose Us?
@@ -218,7 +216,7 @@ export function WhyChooseUs() {
 					autoPlay
 					muted
 					loop
-					className='w-100 hidden lg:block 2xl:w-130 shadow-[0px_0px_15px] shadow-blue-500/15'
+					className='rounded-2xl w-100 hidden lg:block 2xl:w-130 shadow-[0px_0px_15px] shadow-blue-500/15'
 				/>
 				
 			</div>

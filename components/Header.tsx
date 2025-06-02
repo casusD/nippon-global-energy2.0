@@ -7,8 +7,6 @@ import Link from 'next/link'
 import {useState} from 'react'
 import {useTranslation} from 'react-i18next'
 
-import logo from '@/public/logo.png'
-
 function Header() {
 	const { t } = useTranslation();
 	const [isVisible, setIsVisible] = useState<boolean>(false);
@@ -20,7 +18,7 @@ function Header() {
 	return (
 		<div>
 			<header className='w-full p-5 mx-auto flex justify-between items-center relative lg:w-full px-5 xl:w-11/12 2xl:w-11/12'>
-				<Image src={logo} alt='Logo' width={200} style={{ height: 'auto' }} />
+				<Image src={'/logo.png'} alt='Logo' width={200} height={200} />
 				<span onClick={handleVisible} className='lg:hidden'>
 					<Menu />
 				</span>

@@ -1,8 +1,4 @@
 import Image from 'next/image'
-import logo from '@/public/logo.png'
-import facebook from '@/public/facebook.svg'
-import insta from '@/public/insta.svg'
-import twitter from '@/public/twitter.svg'
 
 
 export function Footer() {
@@ -10,11 +6,11 @@ export function Footer() {
         <section className='mt-15 px-10'>
             <div className={'flex items-center justify-between mx-auto lg:w-11/12'}>
                 <div className={'mt-13 xl:mt-0'}>
-                    <Image alt="loc" src={logo} width={150} height={100} />
+                    <Image alt="loc" src={'/logo.png'} width={150} height={100} />
                     <div className={'flex mt-3 xl:hidden w-[150px]'}>
-                        <Image alt="loc" src={facebook} width={50} style={{ height: 'auto' }} />
-                        <Image alt="loc" src={insta} width={50} style={{ height: 'auto' }} />
-                        <Image alt="loc" src={twitter} width={50} style={{ height: 'auto' }} />
+                        <Image alt="loc" src={'/facebook.svg'} width={50} height={50} />
+                        <Image alt="loc" src={'/insta.svg'} width={50} height={50} />
+                        <Image alt="loc" src={'/twitter.svg'} width={50} height={50} />
                     </div>
                 </div>
                 <div className={'mt-10 lg:w-[150px]'}>
@@ -36,11 +32,11 @@ export function Footer() {
                     <p className={'lg:text-[18px]'}>Low fare tips</p>
                 </div>
                 <div className={'hidden xl:flex w-[150px]'}>
-                    <Image alt="loc" src={facebook} width={50} style={{ height: 'auto' }}
+                    <Image alt="loc" src={'/facebook.svg'} width={50} height={50}
                     />
-                    <Image alt="loc" src={insta} width={50} style={{ height: 'auto' }}
+                    <Image alt="loc" src={'/insta.svg'} width={50} height={50}
                     />
-                    <Image alt="loc" src={twitter} width={50} style={{ height: 'auto' }}
+                    <Image alt="loc" src={'/twitter.svg'} width={50} height={50}
                     />
                 </div>
             </div>

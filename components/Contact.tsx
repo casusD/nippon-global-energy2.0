@@ -1,11 +1,9 @@
 import Image from 'next/image'
-import email from '@/public/email.svg'
-import contactB from '@/public/contactB.svg'
 
 export function Contact() {
 	return (
 		<section>
-			<div className={`bg-[url(${contactB})] bg-no-repeat bg-contain bg-[position:0%_100%] 2xl:bg-[position:100%_100%] bg-[#dfd7f94f] h-90 w-9/12 mx-auto lg:rounded-tl-[150px] rounded-tr-4xl rounded-b-4xl rounded-tl-4xl pt-10 text-[#5E6282] relative`}>
+			<div className={`bg-[url('/contactB.svg')] bg-no-repeat bg-contain bg-[position:0%_100%] 2xl:bg-[position:100%_100%] bg-[#dfd7f94f] h-90 w-9/12 mx-auto lg:rounded-tl-[150px] rounded-tr-4xl rounded-b-4xl rounded-tl-4xl pt-10 text-[#5E6282] relative`}>
 				<h1 className='text-xl text-center font-bold lg:text-[26px]'>
 					Let’s build something great together
 				</h1>
@@ -22,10 +20,10 @@ export function Contact() {
 						 text-black bg-white placeholder:text-black mt-10'
 					/>
 					<Image
-						src={email}
+						src={'/email.svg'}
 						alt='img'
 						width={20}
-						style={{ height: 'auto' }}
+						height={20}
 						className='absolute left-25 bottom-25 md:left-37 lg:left-44 lg:bottom-[71px] xl:left-54 focus:border focus:border-solid focus:border-black 2xl:left-66'
 					/>
 					<button className='block mt-5 lg:mt-10 mx-auto bg-gradient-to-r xl:text-[18px] from-[#FF946D] to-[#FF7D68] text-white h-12 py-3 px-10 rounded-lg'>Subscribe</button>

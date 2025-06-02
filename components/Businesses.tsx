@@ -1,9 +1,8 @@
 import FlipStyledCard from '@/components/FlipCard'
-import businessesB from '@/public/businessesB.svg'
 
 export function Businesses() {
 	return (
-		<section className={`mt-15 mb-15 lg:px-5 mx-auto w-11/12 h-fit lg:bg-[url(${businessesB})] bg-[position:97.7%_90%] xl:bg-[position:89%_87%] 2xl:bg-[position:82.5%_87%] xl:bg-[length:80px_200px] bg-no-repeat`}>
+		<section className={`mt-15 mb-15 lg:px-5 mx-auto w-11/12 h-fit lg:bg-[url('/businessesB.svg')] bg-[position:97.7%_90%] xl:bg-[position:89%_87%] 2xl:bg-[position:82.5%_87%] xl:bg-[length:80px_200px] bg-no-repeat`}>
 			<div className=''>
 				<h1 className='text-[25px] text-center font-bold p-5 mb-10'>
 					Our Businesses
