@@ -1,12 +1,11 @@
-import { Businesses } from '@/components/Businesses';
-import { Contact } from '@/components/Contact';
-import Header from '@/components/Header';
-import { Hero } from '@/components/Hero';
-import { Partners } from '@/components/Partners';
-import { Services } from '@/components/Services';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import {Footer} from "@/components/Footer";
-import FlipStyledCard from "@/components/FlipCard";
+import {Businesses} from '@/components/Businesses'
+import {Contact} from '@/components/Contact'
+import Header from '@/components/Header'
+import {Hero} from '@/components/Hero'
+import {Partners} from '@/components/Partners'
+import {Services} from '@/components/Services'
+import {WhyChooseUs} from '@/components/WhyChooseUs'
+import {Footer} from '@/components/Footer'
 
 
 export default function Home() {
@@ -22,8 +21,6 @@ export default function Home() {
 			<Partners />
 			<Contact />
 			<Footer />
-			<FlipStyledCard image={'/hero.jpg'} text={'hello'} />
-
 		</div>
 	);
 }

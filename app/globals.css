@@ -35,3 +35,12 @@ body {
 .rotate-y-180 {
 	transform: rotateY(180deg);
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+	display: none;
+}
+
+.scrollbar-hidden {
+	-ms-overflow-style: none;  /* IE и Edge */
+	scrollbar-width: none;     /* Firefox */
+}

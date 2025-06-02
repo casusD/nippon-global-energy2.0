@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import FlipStyledCard from '@/components/FlipCard'
 
 export function Businesses() {
 	return (
@@ -8,52 +8,28 @@ export function Businesses() {
 					Our Businesses
 				</h1>
 
+
 				<div className='flex justify-around gap-2 xl:w-4xl mx-auto'>
-					<div className='w-45 h-63 rounded-2xl shadow-xl shadow-black/6 bg-white lg:w-57 lg:h-79 hover:translate-x-1 hover:-translate-y-1 transition-all duration-400'>
-						<Image
-							src='/motor.png'
-							alt='Image'
-							width={100}
-							height={100}
-							className='w-full rounded-t-2xl'
-						/>
-						<p className='text-[11px] text-center mt-3  text-[#5E6282] lg:text-[14px] lg:mt-5'>
-							Automotive Division
-						</p>
-						<span className='text-[12px] block text-center mt-3 text-red-400 lg:text-[15px] '>
-							More
-						</span>
-					</div>
-					<div className=' w-45 h-63 rounded-2xl shadow-xl shadow-black/6 bg-white lg:w-57 lg:h-79 hover:translate-x-1 hover:-translate-y-1 transition-all duration-400'>
-						<Image
-							src='/Solutions.jpg'
-							alt='Image'
-							width={100}
-							height={100}
-							className='w-full rounded-t-2xl'
-						/>
-						<p className='text-[11px] text-center mt-3  text-[#5E6282] lg:text-[14px] lg:mt-5'>
-							Logistics & Freight Solutions
-						</p>
-						<span className='text-[12px] block text-center mt-3 text-red-400 lg:text-[15px]'>
-							More
-						</span>
-					</div>
-					<div className=' w-45 h-63 rounded-2xl shadow-xl shadow-black/6 bg-white lg:w-57 lg:h-79 hover:translate-x-1 hover:-translate-y-1 transition-all duration-400'>
-						<Image
-							src='/Gas Division.webp'
-							alt='Image'
-							width={100}
-							height={100}
-							className='w-full rounded-t-2xl'
-						/>
-						<p className='text-[11px] text-center mt-3  text-[#5E6282] lg:text-[14px] lg:mt-5'>
-							Oil & Gas Division
-						</p>
-						<span className='text-[12px] block text-center mt-3 text-red-400 lg:text-[15px]'>
-							More
-						</span>
-					</div>
+					<FlipStyledCard image={'/motor.png'} textFront={'Automotive Division'} textBack={'We specialize in the supply and export of:\n' + '\n' +
+						' • Engine Oil (Synthetic, Semi-Synthetic, Mineral – passenger and commercial use)\n' + '\n' +
+						' • Tires (TBR, PCR, OTR – All major brands & private labels)\n' + '\n' +
+						' • Car Parts (OEM & aftermarket parts for Japanese, European, and Korean vehicles)'} />
+
+					<FlipStyledCard image={'/Solutions.jpg'} textFront={'Logistics & Freight Solutions'} textBack={'We operate an integrated logistics system that ensures reliable delivery from Japan to Central Asia.\n' + '\n' +
+						'• Multimodal Transport: Sea + Land freight to landlocked regions\n' + '\n' +
+						'• Customs Clearance Assistance\n' + '\n' +
+						"• Warehousing & Consolidation in Japan\n" + '\n' +
+						'• End-to-End Supply Chain Management\n' + '\n' +
+
+						'Whether you’re moving one container or entire projects – we make it efficient, secure, and cost-effective.'} />
+
+					<FlipStyledCard image={'/Gas Division.webp'} textFront={'Oil & Gas Division'} textBack={'We serve major oil and gas players in Turkmenistan and Central Asia with:\n' + '\n' +
+						' • Oilfield Equipment: Drilling rigs, pumps, valves, and tools\n' + '\n' +
+						' • Pipes & Tubular Products: API 5L, OCTG, seamless and welded\n' + '\n' +
+						' • Construction Equipment: Cranes, compressors, graders, and support machinery\n' + '\n' +
+						' • Procurement & Tender Management: We handle government tenders and EPC project sourcing\n' +
+						'\n' +
+						'We have built strong local partnerships to support infrastructure and energy development projects across the region.'} />
 				</div>
 			</div>
 		</section>
