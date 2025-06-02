@@ -1,10 +1,16 @@
 import Image from 'next/image'
+import firstPartners from '/firstPartners.png'
+import secondPartner from '/secondPartner.png'
+import thirdPartner from '/thirdPartner.png'
+import fourthPartner from '/fourthPartner.png'
+import Slayd from '/Slayd.png'
+
 
 const textList = [
-	{ name: 'Automotive Lubricants & Parts', img: '/firstPartners.png' },
-	{ name: 'Oilfield Equipment', img: '/secondPartner.png' },
-	{ name: 'Japanese Industrial Tools', img: '/thirdPartner.png' },
-	{ name: 'Construction & Civil Equipment', img: '/fourthPartner.png' },
+	{ name: 'Automotive Lubricants & Parts', img: firstPartners },
+	{ name: 'Oilfield Equipment', img: secondPartner },
+	{ name: 'Japanese Industrial Tools', img: thirdPartner },
+	{ name: 'Construction & Civil Equipment', img: fourthPartner },
 ];
 
 export function Partners() {
@@ -25,7 +31,7 @@ export function Partners() {
 							</div>
 						))}
 					</div>
-					<Image src={'/Slayd.png'} alt={'Image'} width={500} height={100} className={'rounded-2xl block mx-auto sm:mt-15 lg:mt-10'} />
+					<Image src={Slayd} alt={'Image'} width={500} height={100} className={'rounded-2xl block mx-auto sm:mt-15 lg:mt-10'} />
 				</div>
 				
 			</div>

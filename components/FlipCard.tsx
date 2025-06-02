@@ -1,10 +1,10 @@
 'use client'
 
 import React, {useState} from 'react'
-import Image from 'next/image'
+import Image, {StaticImageData} from 'next/image'
 
 interface CardProps {
-    image: string;
+    image:  StaticImageData;
     textFront: string;
     textBack: string;
 }
