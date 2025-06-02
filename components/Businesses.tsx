@@ -1,8 +1,5 @@
 import FlipStyledCard from '@/components/FlipCard'
-import businessesB from '/businessesB.svg'
-import motor from '/motor.png'
-import Solutions from '/Solutions.jpg'
-import GasDivision from '/Gas Division.webp'
+import businessesB from '@/public/businessesB.svg'
 
 export function Businesses() {
 	return (
@@ -14,12 +11,12 @@ export function Businesses() {
 
 
 				<div className='flex justify-around gap-2 xl:w-4xl mx-auto'>
-					<FlipStyledCard image={motor} textFront={'Automotive Division'} textBack={'We specialize in the supply and export of:\n' + '\n' +
+					<FlipStyledCard image={'/motor.png'} textFront={'Automotive Division'} textBack={'We specialize in the supply and export of:\n' + '\n' +
 						' • Engine Oil (Synthetic, Semi-Synthetic, Mineral – passenger and commercial use)\n' + '\n' +
 						' • Tires (TBR, PCR, OTR – All major brands & private labels)\n' + '\n' +
 						' • Car Parts (OEM & aftermarket parts for Japanese, European, and Korean vehicles)'} />
 
-					<FlipStyledCard image={Solutions} textFront={'Logistics & Freight Solutions'} textBack={'We operate an integrated logistics system that ensures reliable delivery from Japan to Central Asia.\n' + '\n' +
+					<FlipStyledCard image={'/Solutions.jpg'} textFront={'Logistics & Freight Solutions'} textBack={'We operate an integrated logistics system that ensures reliable delivery from Japan to Central Asia.\n' + '\n' +
 						'• Multimodal Transport: Sea + Land freight to landlocked regions\n' + '\n' +
 						'• Customs Clearance Assistance\n' + '\n' +
 						"• Warehousing & Consolidation in Japan\n" + '\n' +
@@ -27,13 +24,12 @@ export function Businesses() {
 
 						'Whether you’re moving one container or entire projects – we make it efficient, secure, and cost-effective.'} />
 
-					<FlipStyledCard image={GasDivision} textFront={'Oil & Gas Division'} textBack={'We serve major oil and gas players in Turkmenistan and Central Asia with:\n' + '\n' +
+					<FlipStyledCard image={'/Gas Division.webp'} textFront={'Oil & Gas Division'} textBack={'We serve major oil and gas players in Turkmenistan and Central Asia with:\n' + '\n' +
 						' • Oilfield Equipment: Drilling rigs, pumps, valves, and tools\n' + '\n' +
 						' • Pipes & Tubular Products: API 5L, OCTG, seamless and welded\n' + '\n' +
 						' • Construction Equipment: Cranes, compressors, graders, and support machinery\n' + '\n' +
 						' • Procurement & Tender Management: We handle government tenders and EPC project sourcing\n' +
-						'\n' +
-						'We have built strong local partnerships to support infrastructure and energy development projects across the region.'} />
+						'\n' + 'We have built strong local partnerships to support infrastructure and energy development projects across the region.'} />
 				</div>
 			</div>
 		</section>

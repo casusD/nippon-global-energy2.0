@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import logo from '/logo.png'
-import facebook from '/facebook.svg'
-import insta from '/insta.svg'
-import twitter from '/twitter.svg'
+import logo from '@/public/logo.png'
+import facebook from '@/public/facebook.svg'
+import insta from '@/public/insta.svg'
+import twitter from '@/public/twitter.svg'
 
 
 export function Footer() {
@@ -12,9 +12,9 @@ export function Footer() {
                 <div className={'mt-13 xl:mt-0'}>
                     <Image alt="loc" src={logo} width={150} height={100} />
                     <div className={'flex mt-3 xl:hidden w-[150px]'}>
-                        <Image alt="loc" src={facebook} width={50} height={100} />
-                        <Image alt="loc" src={insta} width={50} height={100} />
-                        <Image alt="loc" src={twitter} width={50} height={100} />
+                        <Image alt="loc" src={facebook} width={50} style={{ height: 'auto' }} />
+                        <Image alt="loc" src={insta} width={50} style={{ height: 'auto' }} />
+                        <Image alt="loc" src={twitter} width={50} style={{ height: 'auto' }} />
                     </div>
                 </div>
                 <div className={'mt-10 lg:w-[150px]'}>
@@ -36,9 +36,12 @@ export function Footer() {
                     <p className={'lg:text-[18px]'}>Low fare tips</p>
                 </div>
                 <div className={'hidden xl:flex w-[150px]'}>
-                    <Image alt="loc" src={facebook} width={50} height={100} />
-                    <Image alt="loc" src={insta} width={50} height={100} />
-                    <Image alt="loc" src={twitter} width={50} height={100} />
+                    <Image alt="loc" src={facebook} width={50} style={{ height: 'auto' }}
+                    />
+                    <Image alt="loc" src={insta} width={50} style={{ height: 'auto' }}
+                    />
+                    <Image alt="loc" src={twitter} width={50} style={{ height: 'auto' }}
+                    />
                 </div>
             </div>
             <div className={'text-center my-10 lg:text-[16px]'}>All rights reserved@jadoo.co</div>

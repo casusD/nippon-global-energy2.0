@@ -6,7 +6,7 @@ import {Partners} from '@/components/Partners'
 import {Services} from '@/components/Services'
 import {WhyChooseUs} from '@/components/WhyChooseUs'
 import {Footer} from '@/components/Footer'
-import Decore from '/Decore.png'
+import Decore from '@/public/Decore.png'
 
 export default function Home() {
 	return (

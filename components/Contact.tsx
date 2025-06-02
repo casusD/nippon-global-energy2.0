@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import email from '/email.svg'
-import contactB from '/contactB.svg'
+import email from '@/public/email.svg'
+import contactB from '@/public/contactB.svg'
 
 export function Contact() {
 	return (
@@ -25,7 +25,7 @@ export function Contact() {
 						src={email}
 						alt='img'
 						width={20}
-						height={10}
+						style={{ height: 'auto' }}
 						className='absolute left-25 bottom-25 md:left-37 lg:left-44 lg:bottom-[71px] xl:left-54 focus:border focus:border-solid focus:border-black 2xl:left-66'
 					/>
 					<button className='block mt-5 lg:mt-10 mx-auto bg-gradient-to-r xl:text-[18px] from-[#FF946D] to-[#FF7D68] text-white h-12 py-3 px-10 rounded-lg'>Subscribe</button>

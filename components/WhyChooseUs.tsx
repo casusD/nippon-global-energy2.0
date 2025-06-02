@@ -1,4 +1,4 @@
-import serviceBG from '/serviceBG.png'
+import serviceBG from '@/public/serviceBG.png'
 
 export function WhyChooseUs() {
 	return (
@@ -214,12 +214,13 @@ export function WhyChooseUs() {
 					</div>
 				</div>
 				<video
-					src='/work-with-us.mp4'
+					src='/video/video.mp4'
 					autoPlay
 					muted
 					loop
 					className='w-100 hidden lg:block 2xl:w-130 shadow-[0px_0px_15px] shadow-blue-500/15'
-				></video>
+				/>
+				
 			</div>
 		</section>
 	);

@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import hero from '/hero.jpg'
-import underline from '/underline.png'
+import hero from '@/public/hero.jpg'
+import underline from '@/public/underline.png'
 
 export function Hero() {
 	return (
@@ -37,7 +37,7 @@ export function Hero() {
 					src={hero}
 					alt='image'
 					width={250}
-					height={200}
+					style={{ height: 'auto' }}
 					className='rounded-2xl md:scale-130 lg:scale-150 xl:scale-170 2xl:scale-200'
 				/>
 			</div>

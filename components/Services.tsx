@@ -1,10 +1,11 @@
 import Image from 'next/image'
-import ProductSourcingTrading from '/Product Sourcing & Trading.webp'
-import LogisticsFreightForwarding from '/Logistics & Freight Forwarding.png'
-import TheTenderingProcess from '/The-Tendering-Process.jpg'
-import branding from '/branding.webp'
-import Consulting from '/Consulting.jpg'
-import serviceBG from '/serviceBG.png'
+import ProductSourcingTrading from '@/public/Product Sourcing & Trading.webp'
+import LogisticsFreightForwarding
+	from '@/public/Logistics & Freight Forwarding.png'
+import TheTenderingProcess from '@/public/The-Tendering-Process.jpg'
+import branding from '@/public/branding.webp'
+import Consulting from '@/public/Consulting.jpg'
+import serviceBG from '@/public/serviceBG.png'
 
 export function Services() {
 	return (
@@ -16,7 +17,7 @@ export function Services() {
 						src={ProductSourcingTrading}
 						alt='image'
 						width={120}
-						height={100}
+						style={{ height: 'auto' }}
 						className='rounded-2xl mb-5 lg:w-40 xl:w-50'
 					/>
 					<h2 className='text-[14px] lg:text-[16px] w-9/12'>
@@ -28,7 +29,7 @@ export function Services() {
 						src={LogisticsFreightForwarding}
 						alt='image'
 						width={140}
-						height={120}
+						style={{ height: 'auto' }}
 						className='rounded-2xl h-30 lg:h-40 mb-5 lg:w-50 xl:w-65 xl:h-50'
 					/>
 					<h2 className='text-[14px] lg:text-[16px] w-9/12'>
@@ -40,7 +41,7 @@ export function Services() {
 						src={TheTenderingProcess}
 						alt='image'
 						width={120}
-						height={100}
+						style={{ height: 'auto' }}
 						className='rounded-2xl mb-5 lg:w-40 xl:w-50'
 					/>
 					<h2 className='text-[14px] lg:text-[16px] w-9/12'>
@@ -52,7 +53,7 @@ export function Services() {
 						src={branding}
 						alt='image'
 						width={120}
-						height={100}
+						style={{ height: 'auto' }}
 						className='rounded-2xl mb-5 lg:w-40 xl:w-50'
 					/>
 					<h2 className='text-[14px] lg:text-[16px] w-9/12'>
@@ -64,7 +65,7 @@ export function Services() {
 						src={Consulting}
 						alt='image'
 						width={120}
-						height={100}
+						style={{ height: 'auto' }}
 						className='rounded-2xl mb-5 lg:w-40 xl:w-50'
 					/>
 					<h2 className='text-[14px] lg:text-[16px]  w-9/12'>
