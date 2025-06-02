@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Contact() {
 	return (
-		<section>
+		<section id={'contactUs'}>
 			<div className={`bg-[url('/contactB.svg')] bg-no-repeat bg-contain bg-[position:0%_100%] 2xl:bg-[position:100%_100%] bg-[#dfd7f94f] h-90 w-9/12 mx-auto lg:rounded-tl-[150px] rounded-tr-4xl rounded-b-4xl rounded-tl-4xl pt-10 text-[#5E6282] relative`}>
 				<h1 className='text-xl text-center font-bold lg:text-[26px]'>
 					Let’s build something great together

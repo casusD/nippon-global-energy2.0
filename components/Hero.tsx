@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Hero() {
 	return (
-		<section className='mt-10 px-5 flex gap-10 lg:gap-15 lg:w-11/12 mx-auto justify-between xl:w-11/12 2xl:w-11/12'>
+		<section id={'hero'} className='mt-10 px-5 flex gap-10 lg:gap-15 lg:w-11/12 mx-auto justify-between xl:w-11/12 2xl:w-11/12'>
 			<div className='w-1/2 flex flex-col justify-between gap-5 2xl:gap-5'>
 				<h3 className='text-[10px] font-bold text-red-400 md:text-[12px] lg:text-[14px] xl:text-[18px]'>
 					Connecting Japan with the World – One Trade at a Time

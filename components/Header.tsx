@@ -36,13 +36,13 @@ function Header() {
 							: 'hidden lg:border-none lg:static lg:w-2xl lg:flex justify-between'
 					}
 				>
-					<Link href='#'>{t('header.home')}</Link>
-					<Link href='#'>{t('header.aboutUs')}</Link>
+					<Link href='/#hero'>{t('header.home')}</Link>
+					<Link href='/#aboutUs'>{t('header.aboutUs')}</Link>
 					{/* <Link href='#'>{t('header.ourBusinesses')}</Link> */}
-					<Link href='#'>{t('header.ourServices')}</Link>
+					<Link href='/#ourServices'>{t('header.ourServices')}</Link>
 					{/* <Link href='#'>{t('header.whyChooseUs')}</Link> */}
-					<Link href='#'>{t('header.partnersBrands')}</Link>
-					<Link href='#'>{t('header.contactUs')}</Link>
+					<Link href='/#partnersBrands'>{t('header.partnersBrands')}</Link>
+					<Link href='/#contactUs'>{t('header.contactUs')}</Link>
 				</div>
 				{/* </div> */}
 			</header>

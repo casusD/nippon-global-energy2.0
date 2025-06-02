@@ -10,7 +10,7 @@ const textList = [
 
 export function Partners() {
 	return (
-		<section className='mt-25 mb-25 px-5 mx-auto w-11/12'>
+		<section id={'partnersBrands'} className='mt-25 mb-25 px-5 mx-auto w-11/12'>
 			<div className='justify-between xl:w-10/12 2xl:w-9/12 mx-auto'>
 
 				<h1 className='text-2xl w-140 font-bold'>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutUs = () => {
 	return (
-		<section className="bg-white py-20 px-6 sm:px-12 lg:px-20">
+		<section id={'aboutUs'} className="bg-white py-20 px-6 sm:px-12 lg:px-20">
 			<div className="max-w-6xl mx-auto">
 				{/* Заголовок секции */}
 				<h2 className="text-center text-4xl sm:text-2xl font-extrabold text-gray-900 mb-16 tracking-tight">
