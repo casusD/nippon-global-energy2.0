@@ -1,14 +1,13 @@
 'use client';
 
-import '@/public/locales/i18n'
 import {Menu} from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {useState} from 'react'
-import {useTranslation} from 'react-i18next'
+import {useTranslations} from 'next-intl'
 
 function Header() {
-	const { t } = useTranslation();
+	const t  = useTranslations();
 	const [isVisible, setIsVisible] = useState<boolean>(false);
 
 	const handleVisible = () => {
@@ -38,9 +37,7 @@ function Header() {
 				>
 					<Link href='/#hero'>{t('header.home')}</Link>
 					<Link href='/#aboutUs'>{t('header.aboutUs')}</Link>
-					{/* <Link href='#'>{t('header.ourBusinesses')}</Link> */}
 					<Link href='/#ourServices'>{t('header.ourServices')}</Link>
-					{/* <Link href='#'>{t('header.whyChooseUs')}</Link> */}
 					<Link href='/#partnersBrands'>{t('header.partnersBrands')}</Link>
 					<Link href='/#contactUs'>{t('header.contactUs')}</Link>
 				</div>

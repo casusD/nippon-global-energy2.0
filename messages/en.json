@@ -1,4 +1,21 @@
 {
-	"welcome": "Welcome to the site!",
-	"languageSwitcher": "Switch Language"
+	"header": {
+		"home": "Home",
+		"aboutUs": "About Us",
+		"ourBusinesses": "Our Businesses",
+		"ourServices": "Our Services",
+		"whyChooseUs": "Why Choose Us",
+		"partnersBrands": "Partners & Brands",
+		"contactUs": "Contact Us"
+	},
+	"hero": {
+		"title": "Connecting Japan with the World – One Trade at a Time",
+		"description": "Welcome to Nippon global energy, a Tokyo-based international trading and logistics company that embodies the spirit of Japanese craftsmanship and global business acumen. We specialize in:",
+		"list": {
+			"first": "Automotive Supplies – Engine Oil, Tires, Car Parts",
+			"second": "Logistics & Transport – Seamless movement of goods from Japan to Central Asia",
+			"third": "Oil & Gas Solutions – Supplying pipes, drilling and construction equipment for energy projects"
+		},
+		"more": "We are more than just a trading house – we are your trusted business bridge between Japan and emerging markets, especially in Central Asia and the Middle East."
+	}
 }

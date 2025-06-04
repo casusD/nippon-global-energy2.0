@@ -1,12 +1,13 @@
 import {Businesses} from '@/components/Businesses'
 import {Contact} from '@/components/Contact'
 import Header from '@/components/Header'
-import {Hero} from '@/components/Hero'
+import Hero from '@/components/Hero'
 import {Partners} from '@/components/Partners'
 import {Services} from '@/components/Services'
 import {WhyChooseUs} from '@/components/WhyChooseUs'
 import {Footer} from '@/components/Footer'
 import AboutUs from '@/components/AboutUs'
+
 
 export default function Home() {
 	return (

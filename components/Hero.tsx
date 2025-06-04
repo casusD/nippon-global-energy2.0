@@ -1,11 +1,12 @@
 import Image from 'next/image'
 
-export function Hero() {
+export default function Hero() {
+	
 	return (
 		<section id={'hero'} className='mt-10 px-5 flex gap-10 lg:gap-15 lg:w-11/12 mx-auto justify-between xl:w-11/12 2xl:w-11/12'>
 			<div className='w-1/2 flex flex-col justify-between gap-5 2xl:gap-5'>
 				<h3 className='text-[10px] font-bold text-red-400 md:text-[12px] lg:text-[14px] xl:text-[18px]'>
-					Connecting Japan with the World – One Trade at a Time
+					{"hero. title"}
 				</h3>
 				<h1 className={`bg-[url('/underline.png')] bg-[position:0%_50%] bg-no-repeat 2xl:bg-center 2xl:bg-[length:350px_7px] bg-[length:150px_3px] xl:bg-[position:110%_40%] lg:bg-[position:110%_40%] lg:bg-[length:220px_5px] md:bg-[length:150px_3px] md:bg-[position:100%_40%] text-[16px] font-bold text-blue-950 lg:text-[20px] xl:text-[24px]`}>
 					Welcome to Nippon global energy, a Tokyo-based international trading
